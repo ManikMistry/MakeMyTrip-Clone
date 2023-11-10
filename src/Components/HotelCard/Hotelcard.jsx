@@ -33,6 +33,9 @@ function Hotelcard() {
   )
 }
 
+
+/////changes
+
 export default Hotelcard;
 
 

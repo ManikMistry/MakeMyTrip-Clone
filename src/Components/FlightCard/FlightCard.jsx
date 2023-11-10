@@ -19,7 +19,7 @@ function FlightCard() {
                 console.error("error while flight data fetching");
             }
         } catch (error) {
-            console.error(error)
+            console.error(`error:${error}`)
         }
     }
     useEffect(()=>{
