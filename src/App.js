@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import FlightCard from "./Components/FlightCard/FlightCard";
+import Header from "./Components/Header/Header";
+import Header1 from "./Components/Header1/Header1";
+import Header2 from "./Components/Header2/Header2";
+import Hotelcard from "./Components/HotelCard/Hotelcard";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FlightCard/>
+      <Hotelcard/>
+      <Header/>
+      {/* <Header1/>
+      <Header2/> */}
     </div>
   );
 }
